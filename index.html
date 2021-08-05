@@ -1,12 +1,226 @@
 <!DOCTYPE html>
-<html> 
-<head> 
+<html>
+<head>
   <title>
-    Sepanta Zeighami
-  </title> 
-  <meta charset="UTF-8"> 
-  <meta name="description" content="This field contains information about your page. It is usually around two sentences long.">. 
-  <meta name="author" content="Conor Sheils"> 
+    Sepanta Zeighami's Homepage
+  </title>
+  <meta charset="UTF-8">
 </head>
 
+<body>
+ <table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+   <td align="LEFT" valign="TOP"><img src="./index/sep.jpeg" width="200">
+   </td>
+   <td align="LEFT" valign="TOP" width="50">
+   </td>
+   <td align="LEFT" valign="CENTER">
+        <b>Sepanta Zeighami</b>
+        <br>
+        PhD student at University of Southern California
+        <br>
+        zeighami@usc.edu
+        <br>
+        <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao">Google Scholar</a>
+        |
+        <a href="https://github.com/szeighami">GitHub </a>
+        <br>
+        <a href="#bio">Bio </a>
+        |
+        <a href="#interests">Research Interests </a>
+        |
+        <a href="#curr_research">Current Research </a>
+        |
+        <a href="#past_research">Past Research </a>
+        |
+        <a href="#publications">Publications </a>
+   </td>
+  </tr>
+ </table>
+
+<a id="bio"><h2 align="LEFT" style="margin:0px">Bio</h2></a>
+<hr style="margin:0px">
+I'm a PhD student and an Annenberg Fellow at the Computer Science Department of University of Southern California, starting Aug/2019. I obtained my BEng and MPhil degrees in computer science, both from Hong Kong University of Science and Technology in 2017 and 2019, respectively, and was a visiting scholar at Harvard University from May/2019 to Aug/2019.
+<p style="margin-bottom:0.05cm;"></p>
+
+<a id="interests"><h2 align="LEFT" style="margin:0px">Research Interests</h2></a>
+<hr style="margin:0px">
+Intersection of Machine Learning, Databases and Algorithms, with current focus on spatial problems often with privacy considerations.
+<p style="margin-bottom:0.05cm;"></p>
+
+<a id="curr_research"><h2 align="LEFT"style="margin:0px">Current Research</h2></a>
+<hr style="margin:0px">
+<h3 align="CENTER"  style="margin:5px">Neural Databases</h3>
+<p align="justify">
+  <b>NeuroDB for Efficiently Answering Queries. </b> Datasets are getting larger and queries need to be answered fast. <i>Neural Databases (NeuroDB) replace databases with neural networks</i>. It learns neural networks to answer queries instead of accessing the database, and the database is implicitly stored as the weights of the neural networks. Our results show that NeuroDB can answer queries multiple orders of magnitude faster than state-of-the-art while taking less space. NeuroDB represents database queries as functions, and approximates them by neural networks. For example, the figure below (left) shows a dataset of location signals of individuals, and the duration they stayed in that location (color represents visit duration in hours). Middle figure shows that the query of average visit duration for a 50m by 50m rectangle with bottom left corner at a user-specified geo-coordinate can be represented by a query function that takes as input the geo-coordinate of the rectangle and outputs the average visit duration of data points in the corresponding rectangle.  Figure on the right shows a neural network learned to approximate the query function. Then, given query geo-coordinates, NeuroDB uses this learned neural network to answer the query.
+<br>
+Publication: <a href="#neurodb">[ZS21]</a> <a href="https://github.com/szeighami/neurodb">Code</a>
+</p>
+
+
+ <table border="0" cellpadding="0" cellspacing="0" align="CENTER">
+  <tr> 
+   <td align="LEFT" valign="TOP">
+        <figure>
+          <img align="CENTER" src="./index/Database.png" width="200">
+          <figcaption align="CENTER">Dataset of locations </figcaption>
+        </figure>
+   </td>    
+   <td align="LEFT" valign="TOP">
+        <figure>
+          <img align="CENTER" src="./index/NeuroDB_true.png" width="200">
+          <figcaption align="CENTER">True query function</figcaption>
+        </figure>
+   </td>    
+   </td> 
+   <td align="LEFT" valign="TOP">
+        <figure>
+          <img align="CENTER" src="./index/NeuroDB_learned.png" width="200">
+          <figcaption align="CENTER">Learned NeuroDB</figcaption>
+        </figure>
+   </td>    
+  </tr> 
+ </table>
+
+<p align="justify">
+<b>Spatial Neural Histograms for Private Location Release.</b> NeuroDB answers queries fast because it uses patterns in the data to learn a compact model that approximates the data well. Learning patterns also helps making estimates more accurate when the available data is noisy. Spatial Neural Histograms (SNH) utilizes this intuition to build a system that answers count queries on location datasets while preserving differential privacy. SNH first collects noisy answers for some queries from a database (noise is added to preserve privacy of the location of individuals). Then, it learns neural networks to answer range count queries based on the training data collected. The learned models answer queries accurately while adhering to the rigorous differential privacy standard.
+<br>
+Publication: <a href="#snh">[ZAG+21]</a> <a href="https://github.com/szeighami/snh">Code</a>
+</p>
+<figure align="CENTER">
+  <img align="CENTER" src="./index/snh.png" width="800">
+  <figcaption align="CENTER">SNH system architecture</figcaption>
+</figure>
+
+<p style="margin-bottom:0.05cm;"></p>
+<a id="past_research"><h2 align="LEFT"style="margin:0px">Past Research</h2></a>
+<a id="past_research"><h2 align="LEFT"style="margin:0px">Past Research</h2></a>
+<hr style="margin:0px">
+<h3  align="CENTER" style="margin:5px">Disease Spread Estimation and Risk Prediction</h3>
+
+ <table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+   <td align="LEFT" valign="CENTER">
+        <p align="justify">
+        <b>Estimating Spread Through Sub-Sampled Location Data.</b> Viruses such as COVID-19 as well as gossips and physical objects (e.g., packages and marketing pamphlets) spread in a population through physical contacts. The spread depends on how people move, i.e., their mobility patterns. Given the mobility patterns of a population we can estimate how far a disease or other phenomena spreads in the population. However, in practice, mobility patterns of an entire population is never available, but we have access to location data of a subset of individuals. We study the problem of estimating the spread of a phenomena in a population, given that we only have access to sub-samples of location visits of some individuals in the population. Our work can be used to provide a realistic evaluation of different intervention scenarios for different cities and time periods for COVID-19, utilizing real-world location datasets.
+        <br>
+        Publication: <a href="#spread_estim">[ZSK21]</a> <a href="https://github.com/szeighami/SpreadSim">Code</a>
+        </p>
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+   <td align="LEFT" valign="CENTER">
+        <img align="CENTER" src="./index/spread_sample.png" width="200">
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+  </tr> 
+ </table>
+
+ <table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+   <td align="LEFT" valign="CENTER">
+        <p align="justify">
+        <b>Developing Fine-Grained Risk Scores.</b> While contact tracing only aims to track past activities of infected users, one path to controlling the spread of COVID-19 is developing reliable spatiotemporal risk scores to indicate the risk of contracting the disease in a particular area and for a specific period of time. Existing works which consider this problem develop coarse-grain spatial scores, e.g., at a city level, which provides no useful information for both individual and policy-making plans. Such coarse-grain risk scores are not meaningful, as the risk of contracting a disease varies vastly across the city, and depends on the specific area (e.g., risk of infection in a mall vs. at home). We study the problem of predicting fine-grained risk scores for different locations and time periods.
+        <br>
+        Publication: <a href="#risk_score">[RZS+21]</a> <a href="https://github.com/szeighami/SpreadSim">Code</a>
+        </p>
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+   <td align="LEFT" valign="CENTER">
+        <img align="CENTER" src="./index/risk_scores.png" width="200">
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+  </tr> 
+ </table>
+<hr style="margin:0px">
+<h3 align="CENTER" style="margin:5px">Dynamic Skyline Computation on Encrypted Data</h3>
+
+ <table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+   <td align="LEFT" valign="CENTER">
+             <p align="justify">
+        Skyline computation is an increasingly popular query, with broad applicability to many domains. Given the trend to outsource databases, and due to the sensitive nature of the data (e.g., in healthcare), it is essential to evaluate skylines on encrypted datasets. Research efforts acknowledged the importance of secure skyline computation, but existing solutions suffer from several shortcomings: (i) they only provide ad-hoc security; (ii) they take too long to compute the answer; or (iii) they rely on assumptions such as the presence of multiple non-colluding parties in the protocol. We propose a materialization techniques that allows computing answers to dynamic skyline queries efficiently on encrypted data with rigorous security guarantees.
+        <br>
+        Publication: <a href="#skyline">[ZGS21]</a> 
+        </p>
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+   <td align="LEFT" valign="CENTER">
+        <img align="CENTER" src="./index/skyline.png" width="200">
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+  </tr> 
+ </table>
+
+<hr style="margin:0px">
+
+<h3 align="CENTER" style="margin:5px">Item Recommendation Through Average Regret Ratio Minimization </h3>
+
+ <table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+   <td align="LEFT" valign="CENTER">
+        <p align="justify">
+          Selecting a certain number of data points (or records) from a database which "best" satisfy users' expectations is a very prevalent problem with many applications. One application is a hotel booking website showing a certain number of hotels on a single page. The challenge  is that the selected points should "collectively" satisfy the expectation of all users, and some users may not be satisfied with the selected points because they cannot see their favorite point which could be found in the original database. In this project, we define the problem and propose algorithms to find a set of points such that on average, the satisfaction of a user is maximized when only seeing the subset instead of the original database.
+        <br>
+        Publications: <a href="#arr_icde">[ZW19]</a> <a href="https://github.com/szeighami/FAM_Continuous-DP">Code</a>, <a href="#arr_sigmod">[ZW16]</a> <a href="https://github.com/szeighami/FAM_Greedy-Shrink">Code</a>
+        </p>
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+   <td align="LEFT" valign="CENTER">
+        <img align="CENTER" src="./index/arr.png" width="200">
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+  </tr> 
+ </table>
+
+<hr style="margin:0px">
+
+<h3 align="CENTER" style="margin:5px">Indexing for Write-Intesive Databases </h3>
+
+ <table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+   <td align="LEFT" valign="CENTER">
+        <p align="justify">
+                    With the prevalence of online platforms, today, data is being generated and accessed by users at a very high rate. Besides, applications such as stock trading or high frequency trading require guaranteed low delays for performing an operation on a database. It is consequential to design databases that guarantee data insertion and query at a consistently high rate without introducing any long delay during insertion. We propose Nested B-trees (NB-trees), an index that can achieve a consistently high insertion rate on large volumes of data, while providing asymptotically optimal query performance that is very efficient in practice.
+        <br>
+        Publication: <a href="#nbtree">[ZW20]</a>
+        </p>
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+   <td align="LEFT" valign="CENTER">
+        <img align="CENTER" src="./index/nbtree.png" width="200">
+   </td> 
+   <td align="LEFT" valign="TOP" width="50">
+   </td> 
+  </tr> 
+ </table>
+
+
+<p style="margin-bottom:0.05cm;"></p>
+<a id="publications"><h2 align="Left" style="margin:0px">Publications</h2></a>
+<hr style="margin:0px">
+<a id="spread_estim">[ZSK21]</a> <b>S. Zeighami</b> C. Shahabi, and J. Krumm, Estimating spread of contact-based contagions in a population through sub-sampling," in Proceedings of the VLDB Endowment Volume 14 Issue 9, 2021 
+<br>
+<a id="skyline">[ZGS21]</a> <b>S. Zeighami</b> G. Ghinita, and C. Shahabi, Dynamic skyline query on encrypted data," in 2021 IEEE 37th International Conference on Data Engineering (ICDE '21), 2021
+<br>
+<a id="neurodb">[ZS21]</a> <b>S. Zeighami</b> and C. Shahabi, Neurodb: A neural network framework for answering range aggregate queries and beyond," arXiv preprint: https://arxiv.org/abs/2107.04922
+<br>
+<a id="risk_score">[RZS+21]</a> S. Rambhatla, <b>S. Zeighami</b>, K. Shahabi, C. Shahabi, and Y. Liu, Towards accurate spatiotemporal covid-19 risk scores using high resolution real-world mobility data," arXiv preprint: https://arxiv.org/abs/2012.07283
+<br>
+<a id="snh">[ZAG+21]</a> <b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi, A neural database for dierentially private spatial range queries," arXiv preprint: https://arxiv.org/abs/2108.01496
+<br>
+<a id="nbtree">[ZW20]</a> <b>S. Zeighami</b>  and R. C. W. Wong, Bridging the gap between theory and practice on insertion-intensive database," arXiv preprint: https://arxiv.org/abs/2003.01064
+<br>
+<a id="arr_icde">[ZW19]</a> <b>S. Zeighami</b> and R. C. W. Wong, Finding average regret ratio minimizing set in database," in 2019 IEEE 35th International Conference on Data Engineering (ICDE '19), 2019
+<br>
+<a id="arr_sigmod">[ZW16]</a> <b>S. Zeighami</b> and R. C. W. Wong, Minimizing average regret ratio in database," in Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16), 2016.
+</body>
 </html> 
