@@ -37,6 +37,13 @@ I'm a PhD student at the Computer Science Department of University of Southern C
 <p style="margin-bottom:0.05cm;"></p>
 <a id="publications"><h2 align="Left" style="margin:0px">Publications</h2></a>
 <hr style="margin:0px">
+ <ul>
+  <li>
+    <p> A neural database for dierentially private spatial range queries.<br />
+<b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi <br />
+<em>Proceedings of the VLDB Endowment Volume 15, 2022</em>.</p>
+  </li>
+  </ul>
 <a id="snh">[ZAG+22]</a> <b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi, A neural database for dierentially private spatial range queries," in Proceedings of the VLDB Endowment Volume 15, 2022
 <br>
 <a id="spread_estim">[ZSK21]</a> <b>S. Zeighami</b> C. Shahabi, and J. Krumm, Estimating spread of contact-based contagions in a population through sub-sampling," in Proceedings of the VLDB Endowment Volume 14, 2021 
