@@ -29,8 +29,11 @@ layout: default
 
 <a id="bio"><h2 align="LEFT" style="margin:0px">Bio</h2></a>
 <hr style="margin:0px">
-I'm a PhD student at the Computer Science Department of University of Southern California, starting Aug/2019. I obtained my BEng and MPhil degrees in computer science, both from Hong Kong University of Science and Technology in 2017 and 2019, respectively, and was a visiting scholar at Harvard University from May/2019 to Aug/2019.
-<p style="margin-bottom:0.05cm;"></p>
+I'm a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, starting Aug/2019. Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degrees during Sep/2017-Aug/2019, and was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
+ 
+I'm broadly interested in end-to-end data analysis and machine learning pipelines. I'm interested in efficiecy of data storage, privacy of data access, correcting biases in observed data and accurate data-driven modelling, often with a focus on spatiotemporal data.  
+ 
+ <p style="margin-bottom:0.05cm;"></p>
 
 
 
@@ -52,13 +55,13 @@ R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution
    </p>
   </li>
   <li>
-    <p> <a href="https://arxiv.org/pdf/2012.07283.pdf">Towards accurate spatiotemporal covid-19 risk scores using high resolution real-world mobility data  </a><br />
+    <p> <a href="https://arxiv.org/pdf/2012.07283.pdf">Towards Accurate Spatiotemporal Covid-19 Risk Scores Using High Resolution Real-World Mobility Data  </a><br />
 S. Rambhatla*, <b>S. Zeighami</b>*, K. Shahabi, C. Shahabi, and Y. Liu. * Equal contribution <br />
 <em>ACM Transactions on Spatial Algorithms and Systems, 2022</em>. <br />
    </p>
   </li>
     <li>
-    <p> <a href="http://vldb.org/pvldb/vol14/p1557-zeighami.pdf">Estimating spread of contact-based contagions in a population through sub-sampling   </a><br />
+    <p> <a href="http://vldb.org/pvldb/vol14/p1557-zeighami.pdf">Estimating Spread of Contact-Based Contagions in a Population Through Sub-Sampling   </a><br />
 <b>S. Zeighami</b> C. Shahabi, and J. Krumm <br />
 <em>Proceedings of the VLDB Endowment Volume 14, 2021 </em>. <br />
      <a href="https://github.com/szeighami/SpreadSim">Code</a>.<br />
@@ -72,7 +75,7 @@ S. Rambhatla*, <b>S. Zeighami</b>*, K. Shahabi, C. Shahabi, and Y. Liu. * Equal 
    </p>
   </li>
     <li>
-    <p> <a href="https://arxiv.org/pdf/1810.08047.pdf">Finding average regret ratio minimizing set in database </a><br />
+    <p> <a href="https://arxiv.org/pdf/1810.08047.pdf">Finding Average Regret Ratio Minimizing Set in Database </a><br />
 <b>S. Zeighami</b> and R. C. W. Wong <br />
 <em>2019 IEEE 35th International Conference on Data Engineering (ICDE '19)</em>. <br />
      <a href="https://github.com/szeighami/FAM_Discrete-DP">Code</a>.<br />
