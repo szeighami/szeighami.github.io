@@ -30,7 +30,7 @@ layout: default
 <a id="bio"><h2 align="LEFT" style="margin:0px">Bio</h2></a>
 <hr style="margin:0px">
 I'm a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, starting Aug/2019. Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degrees during Sep/2017-Aug/2019, and was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
- 
+<br />
 I'm broadly interested in end-to-end data analysis and machine learning pipelines. I'm interested in efficiecy of data storage, privacy of data access, correcting biases in observed data and accurate data-driven modelling, often with a focus on spatiotemporal data.  
  
  <p style="margin-bottom:0.05cm;"></p>
