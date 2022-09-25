@@ -34,7 +34,7 @@ I'm a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advis
 <br />
 I'm broadly interested in end-to-end data analysis and machine learning pipelines. I'm interested in efficiecy of data storage, privacy of data access, correcting biases in data observations and accurate and efficient data-driven modelling.  
  
- <p style="margin-bottom:0.05cm;"></p>
+ <p style="margin-bottom:0.2cm;"></p>
 
 
 
