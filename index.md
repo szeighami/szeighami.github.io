@@ -39,12 +39,15 @@ I'm a PhD student at the Computer Science Department of University of Southern C
 <hr style="margin:0px">
  <ul>
   <li>
-    <p> A neural database for dierentially private spatial range queries.<br />
+    <p> A Neural Database for Dierentially Private Spatial Range Queries 
 <b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi <br />
-<em>Proceedings of the VLDB Endowment Volume 15, 2022</em>.</p>
+<em>Proceedings of the VLDB Endowment Volume 15, 2022</em>. <br />
+     <a href="https://www.vldb.org/pvldb/vol15/p1066-zeighami.pdf">Paper </a> | <a href="https://github.com/szeighami/SNH">Code</a>.<br />
+   </p>
   </li>
   </ul>
-<a id="snh">[ZAG+22]</a> <b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi, A neural database for dierentially private spatial range queries," in Proceedings of the VLDB Endowment Volume 15, 2022
+<a id="snh">[ZAG+22]</a> <b>S. Zeighami</b> R. Ahuja, G. Ghinita, and C. Shahabi, A neural database for dierentially private spatial range queries," in Proceedings of the VLDB Endowment Volume 15, 2022 
+ <a href="#spread_estim">[ZSK21]</a> [<a href="https://github.com/szeighami/SpreadSim">Code</a>]
 <br>
 <a id="spread_estim">[ZSK21]</a> <b>S. Zeighami</b> C. Shahabi, and J. Krumm, Estimating spread of contact-based contagions in a population through sub-sampling," in Proceedings of the VLDB Endowment Volume 14, 2021 
 <br>
