@@ -23,6 +23,8 @@ layout: default
         <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao">Google Scholar</a>
         |
         <a href="https://github.com/szeighami">GitHub </a>
+        |www.linkedin.com/in/zeighami
+         <a href="www.linkedin.com/in/zeighami">LinkedIn </a>
    </td>
   </tr>
  </table>
