@@ -44,6 +44,12 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <a id="publications"><h2 align="Left" style="margin:0px">Publications</h2></a>
 <hr style="margin:0px">
  <ul>
+ <li>
+    <p>  <a href="https://arxiv.org/pdf/2211.10832.pdf"> NeuroSketch: Fast and Approximate Evaluation of Range Aggregate Queries with Neural Networks  </a> <br />
+<b>S. Zeighami</b>, C. Shahabi and V. Sharan <br />
+<em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD 23. To appear</em>. <br />
+   </p>
+  </li>
   <li>
     <p>  <a href="https://arxiv.org/pdf/2208.09744.pdf"> A Neural Approach to Spatio-Temporal Data Release with User-Level Differential Privacy  </a> <br />
 R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution <br />
