@@ -45,15 +45,23 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <hr style="margin:0px">
  <ul>
  <li>
+    <p>  On Distribution Dependent Sub-Logarithmic Query Time of Learned Indexing <br />
+<b>S. Zeighami</b> and C. Shahabi <br />
+<em>Proceedings of the 40th International Conference on Machine Learning, ICML '23. To Appear 23</em>. <br />
+   </p>
+  </li>
+  <li>
     <p>  <a href="https://arxiv.org/pdf/2211.10832.pdf"> NeuroSketch: Fast and Approximate Evaluation of Range Aggregate Queries with Neural Networks  </a> <br />
 <b>S. Zeighami</b>, C. Shahabi and V. Sharan <br />
-<em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD 23. To appear</em>. <br />
+<em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD '23</em>. <br />
+       <a href="https://github.com/szeighami/NeuroSketch">Code</a>.<br />
    </p>
   </li>
   <li>
     <p>  <a href="https://arxiv.org/pdf/2208.09744.pdf"> A Neural Approach to Spatio-Temporal Data Release with User-Level Differential Privacy  </a> <br />
 R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution <br />
-<em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD 23. To appear</em>. <br />
+<em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD '23</em>. <br />
+     <a href="https://github.com/riteshahuja13/paper_code">Code</a>.<br />
    </p>
   </li>
   <li>
@@ -79,15 +87,19 @@ S. Rambhatla*, <b>S. Zeighami</b>*, K. Shahabi, C. Shahabi, and Y. Liu. * Equal 
   <li>
     <p> <a href="https://arxiv.org/pdf/2003.00051.pdf">Secure Dynamic Skyline Queries Using Result Materialization</a>  <br />
 <b>S. Zeighami</b> G. Ghinita, and C. Shahabi <br />
-<em>2021 IEEE 37th International Conference on Data Engineering (ICDE '21)</em>. <br />
+<em>2021 IEEE 37th International Conference on Data Engineering, ICDE '21</em>. <br />
      <a href="https://github.com/szeighami/Dynamic-Skyline">Code</a>.<br />
-   </p>
-  </li>
-    <li>
-    <p> <a href="https://arxiv.org/pdf/1810.08047.pdf">Finding Average Regret Ratio Minimizing Set in Database </a><br />
+    </p>
+  <li>
+    <p> <a href="https://ieeexplore.ieee.org/abstract/document/8731515">Finding Average Regret Ratio Minimizing Set in Database </a><br />
 <b>S. Zeighami</b> and R. C. W. Wong <br />
-<em>2019 IEEE 35th International Conference on Data Engineering (ICDE '19)</em>. <br />
+<em>2019 IEEE 35th International Conference on Data Engineering, ICDE '19</em>. <br />
      <a href="https://github.com/szeighami/FAM_Discrete-DP">Code</a>.<br />
+   </p>
+   <p> <a href="https://dl.acm.org/doi/abs/10.1145/2882903.2914831">Minimizing Average Regret Ratio in Database </a><br />
+<b>S. Zeighami</b> and R. C. W. Wong <br />
+<em>Proceedings of the 2016 International Conference on Management of Data, SIGMOD '16</em>. <br />
+     <a href="https://github.com/szeighami/FAM_Greedy-Shrink">Code</a>.<br />
    </p>
   </li>
   </ul>
