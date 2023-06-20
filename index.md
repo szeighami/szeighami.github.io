@@ -96,6 +96,8 @@ S. Rambhatla*, <b>S. Zeighami</b>*, K. Shahabi, C. Shahabi, and Y. Liu. * Equal 
 <em>2019 IEEE 35th International Conference on Data Engineering, ICDE '19</em>. <br />
      <a href="https://github.com/szeighami/FAM_Discrete-DP">Code</a>.<br />
    </p>
+   </li>
+     <li>
    <p> <a href="https://dl.acm.org/doi/abs/10.1145/2882903.2914831">Minimizing Average Regret Ratio in Database </a><br />
 <b>S. Zeighami</b> and R. C. W. Wong <br />
 <em>Proceedings of the 2016 International Conference on Management of Data, SIGMOD '16</em>. <br />
