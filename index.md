@@ -45,7 +45,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <hr style="margin:0px">
  <ul>
  <li>
-    <p>  On Distribution Dependent Sub-Logarithmic Query Time of Learned Indexing <br />
+    <p>  <a href="https://arxiv.org/abs/2306.10651.pdf"> On Distribution Dependent Sub-Logarithmic Query Time of Learned Indexing </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 40th International Conference on Machine Learning, ICML '23. To Appear 23</em>. <br />
    </p>
