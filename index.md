@@ -47,7 +47,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
  <li>
     <p>  <a href="https://arxiv.org/abs/2306.10651.pdf"> On Distribution Dependent Sub-Logarithmic Query Time of Learned Indexing </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
-<em>Proceedings of the 40th International Conference on Machine Learning, ICML '23. To Appear 23</em>. <br />
+<em>Proceedings of the 40th International Conference on Machine Learning, ICML '23</em>. <br />
    </p>
   </li>
   <li>
@@ -62,6 +62,12 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution <br />
 <em>Proceedings of the 2023 International Conference on Management of Data, SIGMOD '23</em>. <br />
      <a href="https://github.com/riteshahuja13/paper_code">Code</a>.<br />
+   </p>
+  </li>
+ <li>
+    <p>  A Neural Database for Answering Aggregate Queries on Incomplete Relational Data <br />
+<b>S. Zeighami</b>, R. Seshadri, and C. Shahabi <br />
+<em>Transactions on Knowledge and Data Engineering, TKDE '23, To Appear</em>. <br />
    </p>
   </li>
   <li>
