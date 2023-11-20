@@ -65,9 +65,10 @@ R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution
    </p>
   </li>
  <li>
-    <p>  A Neural Database for Answering Aggregate Queries on Incomplete Relational Data <br />
+    <p>  <a href="https://www.computer.org/csdl/journal/tk/5555/01/10298807/1RACzqhftXG"> A Neural Database for Answering Aggregate Queries on Incomplete Relational Data </a><br />
 <b>S. Zeighami</b>, R. Seshadri, and C. Shahabi <br />
 <em>Transactions on Knowledge and Data Engineering, TKDE '23</em>. <br />
+     <a href="https://github.com/szeighami/NeuroComplete">Code</a>.<br />
    </p>
   </li>
   <li>
