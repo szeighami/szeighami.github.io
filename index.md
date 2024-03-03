@@ -16,7 +16,7 @@ layout: default
    <td align="LEFT" valign="CENTER">
         <b>Sepanta Zeighami</b>
         <br>
-        PhD student at University of Southern California
+        Postdoc at UC Berkeley
         <br>
         zeighami@usc.edu
         <br>
@@ -31,7 +31,7 @@ layout: default
 
 <a id="bio"><h2 align="LEFT" style="margin:0px">Bio</h2></a>
 <hr style="margin:0px">
-I'm a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, starting Aug/2019. Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degree from Sep/2017 to Aug/2019. I was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
+I'm a Postdoctoral Scholar at University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from Aug/2019 to Feb/2024. Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degree from Sep/2017 to Aug/2019. I was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
 <br />
 <br />
 I'm broadly interested in end-to-end data analysis and machine learning systems. I'm interested in efficiecy of data management, privacy of data access, correcting biases in data observations and accurate and efficient data-driven machine learning.  
