@@ -18,7 +18,7 @@ layout: default
         <br>
         Postdoc at UC Berkeley
         <br>
-        zeighami@usc.edu
+        zeighami@berkeley.edu
         <br>
         <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao">Google Scholar</a>
         |
