@@ -45,7 +45,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <hr style="margin:0px">
  <ul>
  <li>
-    <p> Towards Establishing Guaranteed Error for Learned Database Operations</a> <br />
+    <p> Towards Establishing Guaranteed Error for Learned Database Operations <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 12th International Conference on Learning Representations, ICLR '24</em>. <br />
    </p>
