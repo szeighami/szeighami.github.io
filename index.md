@@ -45,9 +45,22 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <hr style="margin:0px">
  <ul>
  <li>
+    <p> Theoretical Analysis of Learned Database Operations under Distribution Shift through Distribution Learnability </a> <br />
+<b>S. Zeighami</b> and C. Shahabi <br />
+<em>Proceedings of the 41st International Conference on Machine Learning, ICML '24</em>. <br />
+   </p>
+  </li>
+ <li>
     <p> <a href="https://openreview.net/pdf?id=6tqgL8VluV"> Towards Establishing Guaranteed Error for Learned Database Operations </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 12th International Conference on Learning Representations, ICLR '24</em>. <br />
+   </p>
+  </li>
+  </li>
+  <li>
+    <p>  <a href="https://arxiv.org/pdf/2402.11318"> BiasBuster: a Neural Approach for Accurate Estimation of Population Statistics using Biased Location Data </a> <br />
+<b>S. Zeighami</b> and C. Shahabi <br />
+<em>Proceedings of the 25th Conference on Mobile Data Management, MDM 2024</em>. <br />
    </p>
   </li>
   <li>
@@ -55,7 +68,6 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 40th International Conference on Machine Learning, ICML '23</em>. <br />
    </p>
-  </li>
   <li>
     <p>  <a href="https://arxiv.org/pdf/2211.10832.pdf"> NeuroSketch: Fast and Approximate Evaluation of Range Aggregate Queries with Neural Networks  </a> <br />
 <b>S. Zeighami</b>, C. Shahabi and V. Sharan <br />
@@ -77,8 +89,15 @@ R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution
      <a href="https://github.com/szeighami/NeuroComplete">Code</a>.<br />
    </p>
   </li>
+   <li>
+    <p>  <a href="https://www.computer.org/csdl/proceedings-article/tps-isa/2023/238500a034/1UAj3RDY4Io"> Supporting Pandemic Preparedness with Privacy Enhancing Technology</a><br />
+R. Liu, <b>S. Zeighami</b>, H. Lin, C. Shahabi, Y. Cao, S. Takagi, Y. Konishi, M. Yoshikawa, L. Xiong <br />
+<em>IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications, TPS-ISA 2023</em>. <br />
+   </p>
+  </li>
+  
   <li>
-    <p> <a href="https://www.vldb.org/pvldb/vol15/p1066-zeighami.pdf">A Neural Database for Dierentially Private Spatial Range Queries </a> <br />
+    <p> <a href="https://www.vldb.org/pvldb/vol15/p1066-zeighami.pdf">A Neural Database for Differentially Private Spatial Range Queries </a> <br />
 <b>S. Zeighami</b>*, R. Ahuja*, G. Ghinita, and C. Shahabi. * Equal contribution <br />
 <em>Proceedings of the VLDB Endowment Volume 15, 2022</em>. <br />
      <a href="https://github.com/szeighami/SNH">Code</a>.<br />
