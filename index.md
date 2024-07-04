@@ -48,7 +48,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
     <p> <a href="https://openreview.net/pdf?id=oowQ8LPA12"> Theoretical Analysis of Learned Database Operations under Distribution Shift through Distribution Learnability </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 41st International Conference on Machine Learning, ICML '24</em>. <br />
-     <b> <span style="color: red;"> Oral Presentation (1.5% oral acceptance rate)</span> </b> <br />
+     <b> <span style="color: maroon;"> Oral Presentation (1.5% oral acceptance rate)</span> </b> <br />
    </p>
   </li>
  <li>
@@ -61,7 +61,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
     <p>  <a href="https://arxiv.org/pdf/2402.11318"> BiasBuster: a Neural Approach for Accurate Estimation of Population Statistics using Biased Location Data </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 25th Conference on Mobile Data Management, MDM '24 </em>. <br />
-     <b> <span style="color: red;"> Best Paper Runner-Up </span> </b> <br />
+     <b> <span style="color: maroon;"> Best Paper Runner-Up </span> </b> <br />
    </p>
   </li>
   <li>
