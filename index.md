@@ -46,7 +46,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
  <li>
     <p> <a href="https://arxiv.org/abs/2409.02343"> NUDGE: Lightweight Non-Parametric Fine-Tuning of Embeddings for Retrieval </a> <br />
 <b>S. Zeighami</b>, Z. Wellmer and A. Parameswaran <br />
-     <b> <a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"><span style="color: maroon;"> Now in LlamaIndex! </span> </b> </a>  <br />
+     <b> <span style="color: maroon;"> Now in LlamaIndex! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> how to use </a>)  <br />
      <a href="https://github.com/szeighami/nudge">Code</a>, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />
    </p>
   </li>
