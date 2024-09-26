@@ -46,7 +46,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
  <li>
     <p> <a href="https://arxiv.org/abs/2409.02343"> NUDGE: Lightweight Non-Parametric Fine-Tuning of Embeddings for Retrieval </a> <br />
 <b>S. Zeighami</b>, Z. Wellmer and A. Parameswaran <br />
-     <b> <span style="color: maroon;"> Now in LlamaIndex! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> how to use </a>)  <br />
+     <b> <span style="color: maroon;"> Now in LlamaIndex! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> documentation </a>)  <br />
      <a href="https://github.com/szeighami/nudge">Code</a>, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />
    </p>
   </li>
@@ -62,7 +62,7 @@ I'm broadly interested in end-to-end data analysis and machine learning systems.
     <p> <a href="https://openreview.net/pdf?id=oowQ8LPA12"> Theoretical Analysis of Learned Database Operations under Distribution Shift through Distribution Learnability </a> <br />
 <b>S. Zeighami</b> and C. Shahabi <br />
 <em>Proceedings of the 41st International Conference on Machine Learning, ICML '24</em>. <br />
-     <b> <span style="color: maroon;"> Oral Presentation (1.5% oral acceptance rate)</span> </b> <br />
+     <b> <span style="color: maroon;"> Oral Presentation (1.5% oral acceptance rate from 10k submissions)</span> </b> <br />
    </p>
   </li>
  <li>
@@ -105,13 +105,6 @@ R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution
      <a href="https://github.com/szeighami/NeuroComplete">Code</a>.<br />
    </p>
   </li>
-   <li>
-    <p>  <a href="https://www.computer.org/csdl/proceedings-article/tps-isa/2023/238500a034/1UAj3RDY4Io"> Supporting Pandemic Preparedness with Privacy Enhancing Technology</a><br />
-R. Liu, <b>S. Zeighami</b>, H. Lin, C. Shahabi, Y. Cao, S. Takagi, Y. Konishi, M. Yoshikawa, L. Xiong <br />
-<em>IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications, TPS-ISA 2023</em>. <br />
-   </p>
-  </li>
-  
   <li>
     <p> <a href="https://www.vldb.org/pvldb/vol15/p1066-zeighami.pdf">A Neural Database for Differentially Private Spatial Range Queries </a> <br />
 <b>S. Zeighami</b>*, R. Ahuja*, G. Ghinita, and C. Shahabi. * Equal contribution <br />
