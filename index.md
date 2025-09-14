@@ -55,11 +55,27 @@ I'm broadly interested in data and AI systems. I work on building accurate, reli
 <hr style="margin:0px">
  <ul>
    <li>
+    <p> <a href="https://arxiv.org/pdf/2509.02896"> Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees </a> <br />
+<b>S. Zeighami</b>, S. Shankar and A. Parameswaran <br />
+    <em>Proceedings of the 2026 International Conference on Management of Data, SIGMOD '26</em>. <br />
+     <!--<b> <span style="color: maroon;"> NUDGE is incorporated in LlamaIndex framework! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> learn how to use </a>)  <br />-->
+     <a href="https://github.com/ucbepic/BARGAIN/">Code</a><!--, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />-->
+   </p>
+   </li>
+  <li>
     <p> <a href="https://arxiv.org/abs/2409.02343"> NUDGE: Lightweight Non-Parametric Fine-Tuning of Embeddings for Retrieval </a> <br />
 <b>S. Zeighami</b>, Z. Wellmer and A. Parameswaran <br />
      <em>Proceedings of the 13th International Conference on Learning Representations, ICLR '25</em>. <br />
      <b> <span style="color: maroon;"> NUDGE is incorporated in LlamaIndex framework! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> learn how to use </a>)  <br />
      <a href="https://github.com/szeighami/nudge">Code</a>, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />
+   </p>
+  </li>
+   <li>
+    <p> <a href="https://arxiv.org/pdf/2502.13016"> LLM-Powered Proactive Data Systems </a> <br />
+<b>S. Zeighami</b>, Y. Lin, S. Shankar and A. Parameswaran <br />
+    <em>IEEE Data Engineering Bulletin, Issue on LLMs-meets-data. March 2025</em>. <br />
+     <!--<b> <span style="color: maroon;"> NUDGE is incorporated in LlamaIndex framework! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> learn how to use </a>)  <br />-->
+     <!--<a href="https://github.com/ucbepic/BARGAIN/">Code</a>, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />-->
    </p>
   </li>
  <li>
