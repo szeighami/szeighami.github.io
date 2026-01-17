@@ -31,14 +31,18 @@ layout: default
 
 <a id="bio"><h2 align="LEFT" style="margin:0px">Bio</h2></a>
 <hr style="margin:0px">
-I'm a Postdoctoral Scholar at University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from Aug/2019 to Feb/2024. Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degree from Sep/2017 to Aug/2019. I was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
+I'm a Postdoctoral Scholar at University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from Aug/2019 to Feb/2024. 
 <br />
 <br />
-I'm broadly interested in data and AI systems. I work on building accurate, reliable, and efficient data-centric systems, with a penchant for theoretically understanding the use of machine learning in such systems.
+My research broadly focuses on data and AI systems. I work on building accurate, reliable, and efficient data-centric systems, with a penchant for theoretically understanding the use of machine learning in such systems.
  
  <p style="margin-bottom:0.2cm;"></p>
 
 <p style="margin-bottom:0.05cm;"></p>
+
+<!-- 
+Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degree from Sep/2017 to Aug/2019. I was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
+  -->
 
 <!-- 
 <a id="publications"><h2 align="Left" style="margin:0px">Pre-Prints</h2></a>
