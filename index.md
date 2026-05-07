@@ -44,20 +44,65 @@ My research broadly focuses on data and AI systems. I work on building accurate,
 Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof. Raymond Wong</a> at Hong Kong University of Science and Technology during my master's degree from Sep/2017 to Aug/2019. I was a visiting scholar at <a href="https://hazyresearch.stanford.edu/">Stanford's Hazy Research</a> lab working with Prof. Chris Ré from May/2022 to Sep/2022 and at <a href="http://daslab.seas.harvard.edu/">Harvard's DASlab</a> working with Prof. Stratos Idreos from May/2019 to Aug/2019.
   -->
 
-<!-- 
-<a id="publications"><h2 align="Left" style="margin:0px">Pre-Prints</h2></a>
+<a id="preprints"><h2 align="Left" style="margin:0px">Pre-Prints</h2></a>
 <hr style="margin:0px">
  <ul>
-
-  </ul>
-  -->
-
+  <li>
+    <p> <a href="https://arxiv.org/abs/2604.02655"> Semantic Data Processing with Holistic Data Understanding </a> <br />
+Y. Sun*, <b>S. Zeighami</b>*, B. Chopra, S. Shankar and A. Parameswaran. * Equal contribution <br />
+    <em>arXiv preprint, 2026</em>.
+   </p>
+  </li>
+  <li>
+    <p> <a href="https://arxiv.org/abs/2603.20576"> Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents </a> <br />
+R. Ma, S. Shankar, R. Chen, Y. Lin, <b>S. Zeighami</b>, R. Ghosh, A. Gupta, A. Gupta, T. Gopal and A. Parameswaran <br />
+    <em>arXiv preprint, 2026</em>.
+   </p>
+  </li>
+  <li>
+    <p> <a href="https://arxiv.org/abs/2602.13521"> Arming Data Agents with Tribal Knowledge </a> <br />
+S. Agarwal*, A. Biswal*, <b>S. Zeighami</b>*, A. Cheung, J. Gonzalez and A. Parameswaran. * Equal contribution <br />
+    <em>arXiv preprint, 2026</em>.
+   </p>
+  </li>
+  <li>
+    <p> <a href="https://arxiv.org/abs/2512.05399"> Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees </a> <br />
+<b>S. Zeighami</b>, S. Shankar and A. Parameswaran <br />
+    <em>arXiv preprint, 2025</em>.
+   </p>
+  </li>
+  <li>
+    <p> <a href="https://arxiv.org/abs/2512.02289"> Multi-Objective Agentic Rewrites for Unstructured Data Processing </a> <br />
+L. L. Wei, S. Shankar, <b>S. Zeighami</b>, Y. Chung, F. Özcan and A. Parameswaran <br />
+    <em>arXiv preprint, 2025</em>.
+   </p>
+  </li>
+ </ul>
 
 
 <p style="margin-bottom:0.05cm;"></p>
-<a id="publications"><h2 align="Left" style="margin:0px">Selected Publications</h2></a>
+<a id="publications"><h2 align="Left" style="margin:0px">Publications</h2></a>
 <hr style="margin:0px">
  <ul>
+   <li>
+    <p> <a href="https://arxiv.org/abs/2504.13587"> RAG Without the Lag: Enabling "What-If" Analysis for Retrieval-Augmented Generation Pipelines </a> <br />
+Q. Romero Lauro, S. Shankar, <b>S. Zeighami</b> and A. Parameswaran <br />
+    <em>Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, CHI '26</em>. <br />
+     <b> <span style="color: maroon;"> Best Paper Award </span> </b>
+   </p>
+   </li>
+   <li>
+    <p> <a href="https://arxiv.org/abs/2509.00997"> Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First </a> <br />
+S. Liu, S. Ponnapalli, S. Shankar, <b>S. Zeighami</b>, A. Zhu, S. Agarwal, R. Chen, S. Suwito, S. Yuan, I. Stoica, M. Zaharia, A. Cheung, N. Crooks, J. Gonzalez and A. Parameswaran <br />
+    <em>Proceedings of the 16th Conference on Innovative Data Systems Research, CIDR '26</em>.
+   </p>
+   </li>
+   <li>
+    <p> <a href="https://arxiv.org/abs/2601.05536"> Task Cascades for Efficient Unstructured Data Processing </a> <br />
+S. Shankar, <b>S. Zeighami</b> and A. Parameswaran <br />
+    <em>Proceedings of the 2026 International Conference on Management of Data, SIGMOD '26</em>.
+   </p>
+   </li>
    <li>
     <p> <a href="https://arxiv.org/pdf/2509.02896"> Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees </a> <br />
 <b>S. Zeighami</b>, S. Shankar and A. Parameswaran <br />
@@ -72,6 +117,12 @@ Previously, I was advisded by <a href="https://cse.hkust.edu.hk/~raywong/">Prof.
      <em>Proceedings of the 13th International Conference on Learning Representations, ICLR '25</em>. <br />
      <b> <span style="color: maroon;"> NUDGE is incorporated in LlamaIndex framework! </span> </b> (<a href="https://docs.llamaindex.ai/en/stable/examples/finetuning/embeddings/finetune_corpus_embedding/"> learn how to use </a>)  <br />
      <a href="https://github.com/szeighami/nudge">Code</a>, <a href="https://data-people-group.github.io/blogs/2024/09/05/nudge">Blog Post</a><br />
+   </p>
+  </li>
+  <li>
+    <p> <a href="https://arxiv.org/abs/2405.04674"> Querying Templatized Document Collections with Large Language Models </a> <br />
+Y. Lin, M. Hulsebos, R. Ma, S. Shankar, <b>S. Zeighami</b>, A. Parameswaran and E. Wu <br />
+    <em>Proceedings of the 41st IEEE International Conference on Data Engineering, ICDE '25</em>.
    </p>
   </li>
    <li>
@@ -122,6 +173,12 @@ R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi. * Equal contribution
      <a href="https://github.com/riteshahuja13/paper_code">Code</a>.<br />
    </p>
   </li>
+  <li>
+    <p>  <a href="https://doi.org/10.1109/TPS-ISA58951.2023.00014"> Supporting Pandemic Preparedness with Privacy Enhancing Technology </a> <br />
+R. Liu, <b>S. Zeighami</b>, H. Lin, C. Shahabi, Y. Cao, S. Takagi, Y. Konishi, M. Yoshikawa and L. Xiong <br />
+<em>Proceedings of the 5th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications, TPS-ISA '23</em>.
+   </p>
+  </li>
  <li>
     <p>  <a href="https://www.computer.org/csdl/journal/tk/5555/01/10298807/1RACzqhftXG"> A Neural Database for Answering Aggregate Queries on Incomplete Relational Data </a><br />
 <b>S. Zeighami</b>, R. Seshadri, and C. Shahabi <br />
@@ -163,13 +220,6 @@ S. Rambhatla*, <b>S. Zeighami</b>*, K. Shahabi, C. Shahabi, and Y. Liu. * Equal 
      <a href="https://github.com/szeighami/FAM_Discrete-DP">Code</a>.<br />
    </p>
    </li>
-   <li>
-   <p> <a href="https://dl.acm.org/doi/abs/10.1145/2882903.2914831">Minimizing Average Regret Ratio in Database </a><br />
-<b>S. Zeighami</b> and R. C. W. Wong <br />
-<em>Proceedings of the 2016 International Conference on Management of Data, SIGMOD '16</em>. <br />
-     <a href="https://github.com/szeighami/FAM_Greedy-Shrink">Code</a>.<br />
-   </p>
-  </li>
   </ul>
 </body>
 </html> 
