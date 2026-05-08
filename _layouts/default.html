@@ -100,8 +100,8 @@
     /* Hero */
     .hero {
       display: grid;
-      grid-template-columns: 200px 1fr;
-      gap: 40px;
+      grid-template-columns: 160px 1fr;
+      gap: 36px;
       align-items: start;
       padding-bottom: 40px;
     }
@@ -111,41 +111,59 @@
       align-items: flex-start;
     }
     .hero-photo {
-      width: 200px;
-      height: 200px;
+      width: 160px;
+      height: 160px;
       border-radius: 6px;
       object-fit: cover;
       box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
     }
     .hero-right { min-width: 0; padding-top: 6px; }
     .hero-name-small {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
       color: var(--color-text);
-      margin: 12px 0 2px;
+      margin: 10px 0 1px;
     }
     .hero-role {
-      font-size: 15px;
+      font-size: 13px;
       color: var(--color-text);
-      margin: 0 0 2px;
+      margin: 0 0 1px;
     }
     .hero-affil {
       color: var(--color-muted);
-      font-size: 14px;
+      font-size: 13px;
       margin: 0 0 4px;
     }
     .hero-email {
-      font-size: 14px;
-      margin: 8px 0 4px;
+      font-size: 12.5px;
+      margin: 6px 0 2px;
     }
     .hero-email a {
       font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
       color: var(--color-accent);
     }
     .hero-inline-links {
-      font-size: 14px;
-      margin: 0 0 4px;
+      font-size: 12.5px;
+      margin: 0;
       color: var(--color-muted);
+    }
+    .hero-icons {
+      display: flex;
+      gap: 12px;
+      margin: 4px 0 0;
+      align-items: center;
+      justify-content: center;
+      width: 160px;
+    }
+    .hero-icons a {
+      display: inline-flex;
+      color: var(--color-muted);
+      border: none;
+      line-height: 0;
+    }
+    .hero-icons a:hover {
+      color: var(--color-accent);
+      border: none;
     }
     .hero-inline-links .dot {
       color: var(--color-soft);
@@ -367,7 +385,7 @@
         gap: 20px;
         text-align: left;
       }
-      .hero-photo { width: 180px; height: 180px; }
+      .hero-photo { width: 150px; height: 150px; }
       .hero-mentor { width: 100%; }
       main { padding: 36px 20px 64px; }
       .nav-inner { padding: 12px 20px; }
