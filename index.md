@@ -8,6 +8,21 @@ layout: default
 <section class="hero" id="about">
   <div class="hero-left">
     <img class="hero-photo" src="./index/sep.jpeg" alt="Sepanta Zeighami">
+    <p class="hero-name-small">Sepanta Zeighami</p>
+    <p class="hero-role">Postdoctoral Scholar</p>
+    <p class="hero-affil">UC Berkeley</p>
+    <p class="hero-email"><a href="mailto:zeighami@berkeley.edu">zeighami@berkeley.edu</a></p>
+    <p class="hero-inline-links">
+      <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao">Scholar</a>
+      <span class="dot">&middot;</span>
+      <a href="https://github.com/szeighami">GitHub</a>
+      <span class="dot">&middot;</span>
+      <a href="https://www.linkedin.com/in/zeighami">LinkedIn</a>
+      <!--
+      <span class="dot">&middot;</span>
+      <a href="#" class="placeholder-link">Curriculum Vitae (PDF)</a>
+      -->
+    </p>
     <!--
     <div class="hero-mentor">
       <div class="mentor-block">
@@ -34,22 +49,6 @@ layout: default
     -->
   </div>
   <div class="hero-right">
-    <h1 class="hero-name">Sepanta Zeighami</h1>
-    <p class="hero-role">Postdoctoral Scholar, UC Berkeley</p>
-    <p class="hero-affil">Department of Electrical Engineering and Computer Sciences</p>
-    <p class="hero-email"><a href="mailto:zeighami@berkeley.edu">zeighami@berkeley.edu</a></p>
-    <p class="hero-inline-links">
-      <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao">Scholar</a>
-      <span class="dot">&middot;</span>
-      <a href="https://github.com/szeighami">GitHub</a>
-      <span class="dot">&middot;</span>
-      <a href="https://www.linkedin.com/in/zeighami">LinkedIn</a>
-      <!--
-      <span class="dot">&middot;</span>
-      <a href="#" class="placeholder-link">Curriculum Vitae (PDF)</a>
-      -->
-    </p>
-
     <div class="hero-about prose">
       <p><b>About Me.</b> I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from August 2019 to February 2024. My research broadly focuses on data and AI systems &mdash; building accurate, reliable, and efficient data-centric systems, with a penchant for theoretically understanding the use of machine learning in such systems.</p>
       <!--
