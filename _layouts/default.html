@@ -100,7 +100,7 @@
     /* Hero */
     .hero {
       display: grid;
-      grid-template-columns: 220px 1fr;
+      grid-template-columns: 200px 1fr;
       gap: 40px;
       align-items: start;
       padding-bottom: 40px;
@@ -111,33 +111,32 @@
       align-items: flex-start;
     }
     .hero-photo {
-      width: 220px;
-      height: 220px;
+      width: 200px;
+      height: 200px;
       border-radius: 6px;
       object-fit: cover;
       box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
     }
-    .hero-right { min-width: 0; }
-    .hero-name {
-      font-family: var(--font-serif);
+    .hero-right { min-width: 0; padding-top: 6px; }
+    .hero-name-small {
+      font-size: 16px;
       font-weight: 600;
-      font-size: 34px;
-      line-height: 1.15;
-      margin: 0 0 6px;
-      letter-spacing: -0.01em;
+      color: var(--color-text);
+      margin: 12px 0 2px;
     }
     .hero-role {
-      font-size: 16px;
+      font-size: 15px;
       color: var(--color-text);
       margin: 0 0 2px;
     }
     .hero-affil {
       color: var(--color-muted);
-      margin: 0 0 8px;
+      font-size: 14px;
+      margin: 0 0 4px;
     }
     .hero-email {
       font-size: 14px;
-      margin: 4px 0 8px;
+      margin: 8px 0 4px;
     }
     .hero-email a {
       font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -145,7 +144,7 @@
     }
     .hero-inline-links {
       font-size: 14px;
-      margin: 0 0 18px;
+      margin: 0 0 4px;
       color: var(--color-muted);
     }
     .hero-inline-links .dot {
@@ -168,12 +167,13 @@
       gap: 12px;
     }
 
-    /* About text under hero info */
-    .hero-about { margin-top: 18px; }
+    /* About text in right column */
+    .hero-about { margin-top: 0; }
+    .hero-about p:first-child { margin-top: 0; }
     .hero-about p {
       margin: 10px 0;
       font-size: 15px;
-      line-height: 1.6;
+      line-height: 1.65;
     }
     .hero-about p b { color: var(--color-text); }
 
@@ -367,8 +367,7 @@
         gap: 20px;
         text-align: left;
       }
-      .hero-photo { width: 160px; height: 160px; }
-      .hero-name { font-size: 28px; }
+      .hero-photo { width: 180px; height: 180px; }
       .hero-mentor { width: 100%; }
       main { padding: 36px 20px 64px; }
       .nav-inner { padding: 12px 20px; }
