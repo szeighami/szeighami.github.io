@@ -65,29 +65,34 @@ layout: default
 
   <ul class="pub-list">
     <li>
-      <a class="pub-title" href="https://arxiv.org/abs/2604.02655">Semantic Data Processing with Holistic Data Understanding</a>
-      <span class="pub-authors">Y. Sun*, <b>S. Zeighami</b>*, B. Chopra, S. Shankar and A. Parameswaran <span class="pub-note">(* co-first author)</span></span>
-      <span class="pub-venue">Preprint</span>
-    </li>
-    <li>
       <a class="pub-title" href="https://arxiv.org/abs/2603.20576">Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents</a>
       <span class="pub-authors">R. Ma, S. Shankar, R. Chen, Y. Lin, <b>S. Zeighami</b>, R. Ghosh, A. Gupta, A. Gupta, T. Gopal and A. Parameswaran</span>
       <span class="pub-venue">Preprint</span>
     </li>
     <li>
+      <a class="pub-title" href="https://arxiv.org/abs/2604.02655">Semantic Data Processing with Holistic Data Understanding</a>
+      <span class="pub-authors">Y. Sun*, <b>S. Zeighami</b>*, B. Chopra, S. Shankar and A. Parameswaran <span class="pub-note">(* co-first author)</span></span>
+      <span class="pub-venue">Under revision at Proceedings of the VLDB Endowment Volume, VLDB '27</span>
+    </li>
+    <li>
       <a class="pub-title" href="https://arxiv.org/abs/2602.13521">Arming Data Agents with Tribal Knowledge</a>
       <span class="pub-authors">S. Agarwal*, A. Biswal*, <b>S. Zeighami</b>*, A. Cheung, J. Gonzalez and A. Parameswaran <span class="pub-note">(* co-first author)</span></span>
-      <span class="pub-venue">Preprint</span>
+      <span class="pub-venue">Under revision at Proceedings of the VLDB Endowment Volume, VLDB '26</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/abs/2512.05399">Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees</a>
       <span class="pub-authors"><b>S. Zeighami</b>, S. Shankar and A. Parameswaran</span>
-      <span class="pub-venue">Preprint</span>
+      <span class="pub-venue">To appear in Proceedings of the VLDB Endowment Volume, VLDB '26</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/abs/2512.02289">Multi-Objective Agentic Rewrites for Unstructured Data Processing</a>
       <span class="pub-authors">L. L. Wei, S. Shankar, <b>S. Zeighami</b>, Y. Chung, F. Özcan and A. Parameswaran</span>
-      <span class="pub-venue">Preprint</span>
+      <span class="pub-venue">To appear in Proceedings of the VLDB Endowment Volume, VLDB '26</span>
+    </li>
+    <li>
+      <a class="pub-title" href="#">Bolt-on, Verifiable Provenance for LLM-Powered Data Processing</a>
+      <span class="pub-authors">Y. Lin, <b>S. Zeighami</b> and A. Parameswaran</span>
+      <span class="pub-venue">To appear in Proceedings of the VLDB Endowment Volume, VLDB '26</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/abs/2504.13587">RAG Without the Lag: Enabling "What-If" Analysis for Retrieval-Augmented Generation Pipelines</a>
@@ -165,11 +170,6 @@ layout: default
       <a class="pub-title" href="https://arxiv.org/pdf/2208.09744.pdf">A Neural Approach to Spatio-Temporal Data Release with User-Level Differential Privacy</a>
       <span class="pub-authors">R. Ahuja*, <b>S. Zeighami</b>*, G. Ghinita, and C. Shahabi <span class="pub-note">(* co-first author)</span></span>
       <span class="pub-venue">Proceedings of the 2023 International Conference on Management of Data, SIGMOD '23</span>
-    </li>
-    <li>
-      <a class="pub-title" href="https://doi.org/10.1109/TPS-ISA58951.2023.00014">Supporting Pandemic Preparedness with Privacy Enhancing Technology</a>
-      <span class="pub-authors">R. Liu, <b>S. Zeighami</b>, H. Lin, C. Shahabi, Y. Cao, S. Takagi, Y. Konishi, M. Yoshikawa and L. Xiong</span>
-      <span class="pub-venue">Proceedings of the 5th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications, TPS-ISA '23</span>
     </li>
     <li>
       <a class="pub-title" href="https://www.computer.org/csdl/journal/tk/5555/01/10298807/1RACzqhftXG">A Neural Database for Answering Aggregate Queries on Incomplete Relational Data</a>
