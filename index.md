@@ -7,10 +7,11 @@ layout: default
 
 <section class="hero" id="about">
   <div class="hero-left">
-    <img class="hero-photo" src="./index/sep.jpeg" alt="Sepanta Zeighami">
+    <img class="hero-photo" src="./index/sep_new.jpeg" alt="Sepanta Zeighami">
     <p class="hero-name-small">Sepanta Zeighami</p>
     <p class="hero-role">Postdoctoral Scholar</p>
     <p class="hero-affil">UC Berkeley</p>
+    <h3 class="contact-label">Contact</h3>
     <p class="hero-email"><a href="mailto:zeighami@berkeley.edu">zeighami@berkeley.edu</a></p>
     <p class="hero-icons">
       <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao" aria-label="Google Scholar" title="Google Scholar">
@@ -23,6 +24,7 @@ layout: default
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
       </a>
     </p>
+    <!-- <p class="hero-cv"><a href="#">Curriculum Vitae (PDF)</a></p> -->
     <!--
     <div class="hero-mentor">
       <div class="mentor-block">
@@ -51,10 +53,8 @@ layout: default
   <div class="hero-right">
     <div class="hero-about prose">
       <p><b>About Me.</b> I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from August 2019 to February 2024. My research broadly focuses on data and AI systems &mdash; building accurate, reliable, and efficient data-centric systems, with a penchant for theoretically understanding the use of machine learning in such systems.</p>
-      <!--
-      <p class="placeholder-text"><b>Impact.</b> Placeholder: a short paragraph on research impact &mdash; deployed systems, libraries that integrated your work (e.g. NUDGE in LlamaIndex), open-source adoption.</p>
-      <p class="placeholder-text"><b>Other Facts.</b> Placeholder: a short paragraph with background &mdash; where you grew up, undergrad, hobbies, or anything else worth knowing.</p>
-      -->
+      <!-- <p class="placeholder-text"><b>Impact.</b> Placeholder: a short paragraph on research impact &mdash; deployed systems, libraries that integrated your work (e.g. NUDGE in LlamaIndex), open-source adoption.</p> -->
+      <!-- <p class="placeholder-text"><b>Other Facts.</b> Placeholder: a short paragraph with background &mdash; where you grew up, undergrad, hobbies, or anything else worth knowing.</p> -->
     </div>
   </div>
 </section>
