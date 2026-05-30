@@ -11,7 +11,6 @@ layout: default
     <p class="hero-name-small">Sepanta Zeighami</p>
     <p class="hero-role">Postdoctoral Scholar</p>
     <p class="hero-affil">UC Berkeley</p>
-    <h3 class="contact-label">Contact</h3>
     <p class="hero-email"><a href="mailto:zeighami@berkeley.edu">zeighami@berkeley.edu</a></p>
     <p class="hero-icons">
       <a href="https://scholar.google.com/citations?user=vaf4fT8AAAAJ&hl=en&oi=ao" aria-label="Google Scholar" title="Google Scholar">
@@ -25,41 +24,45 @@ layout: default
       </a>
     </p>
     <!-- <p class="hero-cv"><a href="#">Curriculum Vitae (PDF)</a></p> -->
-    <!--
     <div class="hero-mentor">
       <div class="mentor-block">
-        <h3 class="mentor-label">Advisor</h3>
+        <h3 class="mentor-label">Advisors</h3>
         <ul class="mentor-list">
-          <li><a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a></li>
+          <li><a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a> <span class="mentee-note">(Postdoc)</span></li>
+          <li><a href="https://infolab.usc.edu/Shahabi/index.html">Cyrus Shahabi</a> <span class="mentee-note">(PhD)</span></li>
         </ul>
       </div>
+      <hr class="mentor-divider">
       <div class="mentor-block">
         <h3 class="mentor-label">Current Mentees</h3>
         <ul class="mentor-list">
-          <li class="mentor-placeholder">Mentee Name</li>
-          <li class="mentor-placeholder">Mentee Name</li>
+          <li>Yourun Sun <span class="mentee-note">(undergrad)</span></li>
+          <li>Andrew Cheng <span class="mentee-note">(undergrad)</span></li>
+          <li>Sasha Singh <span class="mentee-note">(undergrad)</span></li>
         </ul>
       </div>
       <div class="mentor-block">
         <h3 class="mentor-label">Past Mentees</h3>
         <ul class="mentor-list">
-          <li class="mentor-placeholder">Mentee Name &rarr; Next Step</li>
-          <li class="mentor-placeholder">Mentee Name &rarr; Next Step</li>
+          <li><a href="https://quentinromerolauro.com/">Quentin Romero Lauro</a> <span class="mentee-note">(undergrad &rarr; CEO @ Inspector, YC 2025; CRA Undergraduate Award Winner)</span></li>
+          <li>Nikhil &amp; Vinay Rao <span class="mentee-note">(high school &rarr; undergrads @ UC Berkeley EECS)</span></li>
+          <li><a href="https://kyshahab.github.io/">Kameron Shahabi</a> <span class="mentee-note">(undergrad &rarr; PhD @ University of Washington)</span></li>
+          <li><a href="https://www.linkedin.com/in/jonathan-qin-906a71203/">Jonathan Qin</a> <span class="mentee-note">(undergrad &rarr; Centiva Capital)</span></li>
         </ul>
       </div>
     </div>
-    -->
   </div>
   <div class="hero-right">
     <div class="hero-about prose">
-      <p><b>About Me.</b> I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. Before that, I was a PhD student at <a href="https://infolab.usc.edu/">USC's Infolab</a>, advised by Prof. Cyrus Shahabi, from August 2019 to February 2024. My research broadly focuses on data and AI systems &mdash; building accurate, reliable, and efficient data-centric systems, with a penchant for theoretically understanding the use of machine learning in such systems.</p>
-      <!-- <p class="placeholder-text"><b>Impact.</b> Placeholder: a short paragraph on research impact &mdash; deployed systems, libraries that integrated your work (e.g. NUDGE in LlamaIndex), open-source adoption.</p> -->
+      <h2 class="section-title">About Me</h2>
+      <p>I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. I received my PhD from the University of Southern California, advised by <a href="https://infolab.usc.edu/Shahabi/index.html">Cyrus Shahabi</a>.</p>
+      <p><b>Research.</b> My research broadly focuses on data and AI systems &mdash; building accurate, reliable, and efficient data-centric systems. These days I'm excited about using AI agents to reliably and efficiently perform high-level data tasks on heterogeneous data (including both structured and unstructured data sources): figuring out what tools they need, ensuring databases support them efficiently, and designing methods to improve their reliability and enable verification.</p>
+      <p><b>Impact and Recognition.</b> My work has been deployed in systems such as <a href="https://developers.llamaindex.ai/python/examples/finetuning/embeddings/finetune_corpus_embedding/">LlamaIndex</a> and open-source projects such as <a href="https://github.com/ucbepic/docetl/tree/main/docetl/moar">DocETL</a>, and has inspired <a href="https://cloud.google.com/blog/products/data-analytics/more-than-100x-faster-and-cheaper-llm-powered-sql-queries-with-proxy-models?e=48754805">optimizations deployed in industry products</a>. My work has received multiple awards and recognitions at various conferences, including an oral presentation at ICML&rsquo;24 and best paper awards at CHI&rsquo;26 and MDM&rsquo;24. I was also selected as a <a href="https://2026.sigmod.org/sigmod_awards.shtml">distinguished reviewer</a> for SIGMOD&rsquo;26.</p>
+      <p><b>Service.</b> I regularly review for conferences in my core research areas: databases (SIGMOD, VLDB, etc.) and machine learning conferences (NeurIPS, ICLR, etc.), and sometimes for other related conferences and journals (I've reviewed for PODS, Scientific Reports, FAccT). I'm organizing the <a href="https://dashsys-workshop-vldb.github.io/index.html#home">DASHSys workshop</a> at VLDB&rsquo;26.</p>
       <!-- <p class="placeholder-text"><b>Other Facts.</b> Placeholder: a short paragraph with background &mdash; where you grew up, undergrad, hobbies, or anything else worth knowing.</p> -->
     </div>
-  </div>
-</section>
 
-<section id="papers">
+    <section id="papers">
   <h2 class="section-title">Publications</h2>
   <p class="papers-blurb">My work primarily appears at data systems and machine learning venues (SIGMOD, VLDB, ICML, ICLR, etc.).<br><span class="legend"><span class="pub-icon" title="Award">&#127942;</span> award &middot; <span class="pub-icon" title="Industry deployment">&#128640;</span> industry deployment</span></p>
 
@@ -202,6 +205,8 @@ layout: default
       <span class="pub-venue">2019 IEEE 35th International Conference on Data Engineering, ICDE '19</span>
     </li>
   </ul>
+    </section>
+  </div>
 </section>
 
 </main>
