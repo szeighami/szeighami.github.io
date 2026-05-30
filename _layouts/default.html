@@ -19,7 +19,7 @@
       --color-highlight: #b54a3c;
       --color-rule: #e6e4df;
       --color-card: #faf9f6;
-      --max-width: 880px;
+      --max-width: 1200px;
       --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
 
@@ -98,38 +98,41 @@
     /* Hero */
     .hero {
       display: grid;
-      grid-template-columns: 160px 1fr;
-      gap: 36px;
+      grid-template-columns: 230px 1fr;
+      gap: 48px;
       align-items: start;
       padding-bottom: 40px;
     }
     .hero-left {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
+      text-align: center;
+      margin-left: -20px;
     }
+    .hero-mentor { text-align: left; align-self: stretch; }
     .hero-photo {
-      width: 160px;
-      height: 160px;
+      width: 190px;
+      height: 190px;
       border-radius: 6px;
       object-fit: cover;
       box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
     }
     .hero-right { min-width: 0; padding-top: 6px; }
     .hero-name-small {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
       color: var(--color-text);
       margin: 10px 0 1px;
     }
     .hero-role {
-      font-size: 13px;
+      font-size: 14.5px;
       color: var(--color-text);
       margin: 0 0 1px;
     }
     .hero-affil {
-      color: var(--color-muted);
-      font-size: 13px;
+      color: var(--color-text);
+      font-size: 14.5px;
       margin: 0 0 4px;
     }
     .contact-label {
@@ -141,7 +144,7 @@
       margin: 14px 0 4px;
     }
     .hero-email {
-      font-size: 12.5px;
+      font-size: 14px;
       margin: 0 0 2px;
     }
     .hero-cv {
@@ -185,7 +188,7 @@
 
     /* Mentor block under photo */
     .hero-mentor {
-      width: 220px;
+      width: 100%;
       margin-top: 18px;
       padding-top: 14px;
       border-top: 1px solid var(--color-rule);
@@ -255,7 +258,7 @@
     .mentor-label {
       font-family: var(--font-sans);
       font-weight: 600;
-      font-size: 10.5px;
+      font-size: 12px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--color-soft);
@@ -265,14 +268,23 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      font-size: 12.5px;
+      font-size: 14px;
       line-height: 1.5;
       color: var(--color-muted);
     }
-    .mentor-list a { font-size: 12.5px; }
+    .mentor-list a { font-size: 14px; }
     .mentor-placeholder {
       color: var(--color-soft);
       font-style: italic;
+    }
+    .mentee-note {
+      color: var(--color-soft);
+      font-size: 12.5px;
+    }
+    .mentor-divider {
+      border: 0;
+      border-top: 1px solid var(--color-rule);
+      margin: 0;
     }
 
     /* Papers blurb */
@@ -395,6 +407,7 @@
       }
       .hero-photo { width: 150px; height: 150px; }
       .hero-mentor { width: 100%; }
+      .hero-left { margin-left: 0; }
       main { padding: 36px 20px 64px; }
       .nav-inner { padding: 12px 20px; }
       .nav-links { gap: 14px; font-size: 13px; }
