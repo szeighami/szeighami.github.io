@@ -57,7 +57,7 @@ layout: default
       <h2 class="section-title">About Me</h2>
       <p>I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. I received my PhD from the University of Southern California, advised by <a href="https://infolab.usc.edu/Shahabi/index.html">Cyrus Shahabi</a>.</p>
       <p><b>Research.</b> My research broadly focuses on building accurate, reliable, and efficient data and AI systems. These days I'm excited about using AI agents to reliably and efficiently perform high-level data tasks on heterogeneous data (including both structured and unstructured data sources): figuring out what tools they need, ensuring databases support them efficiently, and designing methods to improve their reliability and enable verification.</p>
-      <p><b>Impact and Recognition.</b> My work has been deployed in systems such as <a href="https://developers.llamaindex.ai/python/examples/finetuning/embeddings/finetune_corpus_embedding/">LlamaIndex</a> and open-source projects such as <a href="https://github.com/ucbepic/docetl/tree/main/docetl/moar">DocETL</a>, and has inspired <a href="https://cloud.google.com/blog/products/data-analytics/more-than-100x-faster-and-cheaper-llm-powered-sql-queries-with-proxy-models?e=48754805">optimizations deployed in industry products</a>. My work has received multiple awards and recognitions at various conferences, including an oral presentation at ICML&rsquo;24 and best paper awards at CHI&rsquo;26 and MDM&rsquo;24. I was also selected as a <a href="https://2026.sigmod.org/sigmod_awards.shtml">distinguished reviewer</a> for SIGMOD&rsquo;26.</p>
+      <p><b>Impact and Recognition.</b> My work has been deployed in systems such as <a href="https://developers.llamaindex.ai/python/examples/finetuning/embeddings/finetune_corpus_embedding/">LlamaIndex</a> and open-source projects such as <a href="https://github.com/ucbepic/docetl/tree/main/docetl/moar">DocETL</a>, and has inspired <a href="https://cloud.google.com/blog/products/data-analytics/more-than-100x-faster-and-cheaper-llm-powered-sql-queries-with-proxy-models?e=48754805">optimizations deployed in industry products</a>. My work has received multiple awards and recognitions at various conferences, including an <a href="#paper-icml24">oral presentation at ICML&rsquo;24</a> and <a href="#paper-chi26">best paper awards at CHI&rsquo;26</a> and <a href="#paper-mdm24">MDM&rsquo;24</a>. I was also selected as a <a href="https://2026.sigmod.org/sigmod_awards.shtml">distinguished reviewer</a> for SIGMOD&rsquo;26.</p>
       <p><b>Service.</b> I regularly review for conferences in my core research areas: databases (SIGMOD, VLDB, etc.) and machine learning conferences (NeurIPS, ICLR, etc.), and sometimes for other related conferences and journals (I've reviewed for PODS, Scientific Reports, FAccT). I'm organizing the <a href="https://dashsys-workshop-vldb.github.io/index.html#home">DASHSys workshop</a> at VLDB&rsquo;26.</p>
       <!-- <p class="placeholder-text"><b>Other Facts.</b> Placeholder: a short paragraph with background &mdash; where you grew up, undergrad, hobbies, or anything else worth knowing.</p> -->
     </div>
@@ -97,7 +97,7 @@ layout: default
       <span class="pub-authors">Y. Lin, <b>S. Zeighami</b> and A. Parameswaran</span>
       <span class="pub-venue">To appear in Proceedings of the VLDB Endowment Volume, VLDB '26</span>
     </li>
-    <li>
+    <li id="paper-chi26">
       <a class="pub-title" href="https://arxiv.org/abs/2504.13587">RAG Without the Lag: Enabling "What-If" Analysis for Retrieval-Augmented Generation Pipelines</a>
       <span class="pub-authors">Q. Romero Lauro, S. Shankar, <b>S. Zeighami</b> and A. Parameswaran</span>
       <span class="pub-venue">Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, CHI '26</span>
@@ -138,7 +138,7 @@ layout: default
       <span class="pub-authors"><b>S. Zeighami</b>, Y. Lin, S. Shankar and A. Parameswaran</span>
       <span class="pub-venue">IEEE Data Engineering Bulletin, Issue on LLMs-meets-data, March 2025</span>
     </li>
-    <li>
+    <li id="paper-icml24">
       <a class="pub-title" href="https://openreview.net/pdf?id=oowQ8LPA12">Theoretical Analysis of Learned Database Operations under Distribution Shift through Distribution Learnability</a>
       <span class="pub-authors"><b>S. Zeighami</b> and C. Shahabi</span>
       <span class="pub-venue">Proceedings of the 41st International Conference on Machine Learning, ICML '24</span>
@@ -151,7 +151,7 @@ layout: default
       <span class="pub-authors"><b>S. Zeighami</b> and C. Shahabi</span>
       <span class="pub-venue">Proceedings of the 12th International Conference on Learning Representations, ICLR '24</span>
     </li>
-    <li>
+    <li id="paper-mdm24">
       <a class="pub-title" href="https://arxiv.org/pdf/2402.11318">BiasBuster: a Neural Approach for Accurate Estimation of Population Statistics using Biased Location Data</a>
       <span class="pub-authors"><b>S. Zeighami</b> and C. Shahabi</span>
       <span class="pub-venue">Proceedings of the 25th Conference on Mobile Data Management, MDM '24</span>
