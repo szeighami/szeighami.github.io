@@ -182,7 +182,7 @@ layout: default
     <li>
       <a class="pub-title" href="https://www.vldb.org/pvldb/vol15/p1066-zeighami.pdf">A Neural Database for Differentially Private Spatial Range Queries</a>
       <span class="pub-authors"><b>S. Zeighami</b>*, R. Ahuja*, G. Ghinita, and C. Shahabi <span class="pub-note">(* co-first author)</span></span>
-      <span class="pub-venue">Proceedings of the VLDB Endowment Volume 15, 2022</span>
+      <span class="pub-venue">Proceedings of the VLDB Endowment Volume 15, 2022, VLDB '22</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/pdf/2012.07283.pdf">Towards Accurate Spatiotemporal Covid-19 Risk Scores Using High Resolution Real-World Mobility Data</a>
@@ -192,7 +192,7 @@ layout: default
     <li>
       <a class="pub-title" href="http://vldb.org/pvldb/vol14/p1557-zeighami.pdf">Estimating Spread of Contact-Based Contagions in a Population Through Sub-Sampling</a>
       <span class="pub-authors"><b>S. Zeighami</b>, C. Shahabi, and J. Krumm</span>
-      <span class="pub-venue">Proceedings of the VLDB Endowment Volume 14, 2021</span>
+      <span class="pub-venue">Proceedings of the VLDB Endowment Volume 14, 2021, VLDB '21</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/pdf/2003.00051.pdf">Secure Dynamic Skyline Queries Using Result Materialization</a>
