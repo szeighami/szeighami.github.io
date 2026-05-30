@@ -44,8 +44,8 @@ layout: default
       <div class="mentor-block">
         <h3 class="mentor-label">Past Mentees</h3>
         <ul class="mentor-list">
-          <li><a href="https://quentinromerolauro.com/">Quentin Romero Lauro</a> <span class="mentee-note">(undergrad &rarr; CEO @ Inspector, YC 2025; CRA Undergraduate Award Winner)</span></li>
-          <li>Nikhil &amp; Vinay Rao <span class="mentee-note">(high school &rarr; undergrads @ UC Berkeley EECS)</span></li>
+          <li><a href="https://quentinromerolauro.com/">Quentin Romero Lauro</a> <span class="mentee-note">(undergrad &rarr; CEO @ Inspector, YC 2025)</span></li>
+          <li>Nikhil &amp; Vinay Rao <span class="mentee-note">(high school &rarr; undergrads @ UC Berkeley)</span></li>
           <li><a href="https://kyshahab.github.io/">Kameron Shahabi</a> <span class="mentee-note">(undergrad &rarr; PhD @ University of Washington)</span></li>
           <li><a href="https://www.linkedin.com/in/jonathan-qin-906a71203/">Jonathan Qin</a> <span class="mentee-note">(undergrad &rarr; Centiva Capital)</span></li>
         </ul>
@@ -56,7 +56,7 @@ layout: default
     <div class="hero-about prose">
       <h2 class="section-title">About Me</h2>
       <p>I'm a Postdoctoral Scholar at the University of California, Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a>. I received my PhD from the University of Southern California, advised by <a href="https://infolab.usc.edu/Shahabi/index.html">Cyrus Shahabi</a>.</p>
-      <p><b>Research.</b> My research broadly focuses on data and AI systems &mdash; building accurate, reliable, and efficient data-centric systems. These days I'm excited about using AI agents to reliably and efficiently perform high-level data tasks on heterogeneous data (including both structured and unstructured data sources): figuring out what tools they need, ensuring databases support them efficiently, and designing methods to improve their reliability and enable verification.</p>
+      <p><b>Research.</b> My research broadly focuses on building accurate, reliable, and efficient data and AI systems. These days I'm excited about using AI agents to reliably and efficiently perform high-level data tasks on heterogeneous data (including both structured and unstructured data sources): figuring out what tools they need, ensuring databases support them efficiently, and designing methods to improve their reliability and enable verification.</p>
       <p><b>Impact and Recognition.</b> My work has been deployed in systems such as <a href="https://developers.llamaindex.ai/python/examples/finetuning/embeddings/finetune_corpus_embedding/">LlamaIndex</a> and open-source projects such as <a href="https://github.com/ucbepic/docetl/tree/main/docetl/moar">DocETL</a>, and has inspired <a href="https://cloud.google.com/blog/products/data-analytics/more-than-100x-faster-and-cheaper-llm-powered-sql-queries-with-proxy-models?e=48754805">optimizations deployed in industry products</a>. My work has received multiple awards and recognitions at various conferences, including an oral presentation at ICML&rsquo;24 and best paper awards at CHI&rsquo;26 and MDM&rsquo;24. I was also selected as a <a href="https://2026.sigmod.org/sigmod_awards.shtml">distinguished reviewer</a> for SIGMOD&rsquo;26.</p>
       <p><b>Service.</b> I regularly review for conferences in my core research areas: databases (SIGMOD, VLDB, etc.) and machine learning conferences (NeurIPS, ICLR, etc.), and sometimes for other related conferences and journals (I've reviewed for PODS, Scientific Reports, FAccT). I'm organizing the <a href="https://dashsys-workshop-vldb.github.io/index.html#home">DASHSys workshop</a> at VLDB&rsquo;26.</p>
       <!-- <p class="placeholder-text"><b>Other Facts.</b> Placeholder: a short paragraph with background &mdash; where you grew up, undergrad, hobbies, or anything else worth knowing.</p> -->
@@ -102,7 +102,7 @@ layout: default
       <span class="pub-authors">Q. Romero Lauro, S. Shankar, <b>S. Zeighami</b> and A. Parameswaran</span>
       <span class="pub-venue">Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, CHI '26</span>
       <div class="pub-meta">
-        <span class="pub-badge"><span class="pub-icon">&#127942;</span> Best Paper Award</span>
+        <span class="pub-badge award"><span class="pub-icon">&#127942;</span> Best Paper Award</span>
       </div>
     </li>
     <li>
@@ -143,7 +143,7 @@ layout: default
       <span class="pub-authors"><b>S. Zeighami</b> and C. Shahabi</span>
       <span class="pub-venue">Proceedings of the 41st International Conference on Machine Learning, ICML '24</span>
       <div class="pub-meta">
-        <span class="pub-badge"><span class="pub-icon">&#127942;</span> Oral (1.5% of 10k submissions)</span>
+        <span class="pub-badge award"><span class="pub-icon">&#127942;</span> Oral (1.5% of 10k submissions)</span>
       </div>
     </li>
     <li>
@@ -156,7 +156,7 @@ layout: default
       <span class="pub-authors"><b>S. Zeighami</b> and C. Shahabi</span>
       <span class="pub-venue">Proceedings of the 25th Conference on Mobile Data Management, MDM '24</span>
       <div class="pub-meta">
-        <span class="pub-badge"><span class="pub-icon">&#127942;</span> Best Paper Runner-Up</span>
+        <span class="pub-badge award"><span class="pub-icon">&#127942;</span> Best Paper Runner-Up</span>
       </div>
     </li>
     <li>
