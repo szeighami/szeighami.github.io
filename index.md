@@ -36,7 +36,7 @@ layout: default
       <div class="mentor-block">
         <h3 class="mentor-label">Current Mentees</h3>
         <ul class="mentor-list">
-          <li>Yourun Sun <span class="mentee-note">(undergrad)</span></li>
+          <li>Youran Sun <span class="mentee-note">(undergrad)</span></li>
           <li>Andrew Cheng <span class="mentee-note">(undergrad)</span></li>
           <li>Sasha Singh <span class="mentee-note">(undergrad)</span></li>
         </ul>
