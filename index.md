@@ -80,7 +80,7 @@ layout: default
     <li>
       <a class="pub-title" href="https://arxiv.org/abs/2602.13521">Arming Data Agents with Tribal Knowledge</a>
       <span class="pub-authors">S. Agarwal*, A. Biswal*, <b>S. Zeighami</b>*, A. Cheung, J. Gonzalez and A. Parameswaran <span class="pub-note">(* co-first author)</span></span>
-      <span class="pub-venue">Under revision at Proceedings of the VLDB Endowment Volume, VLDB '26</span>
+      <span class="pub-venue">To appear in Proceedings of the VLDB Endowment Volume, VLDB '26</span>
     </li>
     <li>
       <a class="pub-title" href="https://arxiv.org/abs/2512.05399">Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees</a>
